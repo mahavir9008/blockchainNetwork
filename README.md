@@ -37,5 +37,14 @@ Inside `samples/nodejs/` :
 
 See documentation for the wrapper at [npmjs.com](https://www.npmjs.com/package/indy-sdk#installing).
 
-### Ready to start consuming indy-sdk?
-This example pulls the wrapper from this repository, but you can download it yourself from the npm registry with `npm i indy-sdk`.
+### Stall Lindy-so file to local machine?
+
+Steps to Validate:
+1. apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 68DB5E88
+2. sudo add-apt-repository "deb https://repo.sovrin.org/sdk/deb xenial/bionic master"
+3. sudo apt-get update
+4. sudo apt-get install -y indy-cli
+5. indy-cli
+
+Actual Results:
+indy-cli is installed and run successfully.
